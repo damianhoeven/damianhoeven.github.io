@@ -1,13 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
 }
 
 #cnr-content {
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   margin: 50px auto 0;
-  text-transform: uppercase;
   font: 20px/1.5 "Poppins", sans-serif;
+}
+
+#cnr-content h1 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
