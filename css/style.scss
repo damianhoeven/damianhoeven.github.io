@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+$default-font: 'Poppins', sans-serif;
+
+// ------ HTML / BODY ------ //
+
+body {
+    font-family: $default-font;
+}
+
+
+// ------ Content ------ //
+
+#cnr-content {
+    max-width: 500px;
+    text-align: center;
+    margin: 50px auto 0;
+    text-transform: uppercase;
+    font: 20px/1.5 $default-font;
+}
